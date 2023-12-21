@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tour Albay</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class="Logo">
+                <a href="blog.html"><img src="images/Logo.png" alt="logo" ></a>
+                </div>
+            <div class = "container flex">
+                <a href = "about.html" class = "site-brand">
+                    Tour<span>Albay</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <li class = "nav-item">
+                                <a href = "gallery.html" class = "nav-link">Gallery</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a href = "blog.html" class = "nav-link">Blog</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a href = "about.html" class = "nav-link">About</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Gallery</h1>
+                    <p>Witness the magnificent and breathtaking scenery that Albay has to offer up close! Enjoy the stunning sights as you and your loved ones explore these fantastic destinations!
+                    </p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- gallery section -->
+        <div id = "gallery" class = "py-4">
+            <div class = "container">
+                <div class = "gallery-row">
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-1.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-2.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-3.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-4.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-5.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-6.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-7.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-8.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-9.jpg" alt = "gallery img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of gallery section -->
+
+        <!-- img modal -->
+        <div id = "img-modal-box">
+            <div id = "img-modal">
+                <button type = "button" id = "modal-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <button type = "button" id = "prev-btn" class = "flex">
+                    <i class = "fas fa-chevron-left"></i>
+                </button>
+                <button type = "button" id = "next-btn" class = "flex">
+                    <i class = "fas fa-chevron-right"></i>
+                </button>
+                <img src = "images/gallery-1.jpg">
+            </div>
+        </div>
+        <!-- end of img modal -->
+
+        <!-- popular places section -->
+        <section id = "popular" class = "py-4">
+            <div class = "title-wrap">
+                <span class = "sm-title">Check out other people's thoughts</span>
+                <h2 class = "lg-title">Reviews</h2>
+            </div>
+
+            <div class = "popular-row">
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-1.jpg" alt = "">
+                    <div>
+                        <span>Cagsawa Ruins, Albay</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;6,102 reviews</li>
+                        </ul>
+                        <p class = "text">Its famous lone-standing bell tower, often viewed against the backdrop of Mayon Volcano.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-6.jpg" alt = "">
+                    <div>
+                        <span>Daraga Church, Albay</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;1,098 reviews</li>
+                        </ul>
+                        <p class = "text">Daraga Church is a rare and outstanding example <br> of the Churrigueresque style in the Philippines. </p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-3.jpg" alt = "">
+                    <div>
+                        <span>Sumlang Lake, Albay</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;651 reviews</li>
+                        </ul>
+                        <p class = "text"> Scenic recreation spot with views of Mount Mayon, <br> boat rentals & areas for picnics & photography.
+                        </p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-2.jpg" alt = "">
+                    <div>
+                        <span>Ligñon Hill Nature Park</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;1,085 reviews</li>
+                        </ul>
+                        <p class = "text">Elevated lookout & recreational park featuring a <br>  zip-line & views of the Mayon Volcano.                        </p>
+                    </div>
+                </div>
+
+
+        </section>
+        <!-- end of popular places section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "about.html" class = "site-brand">
+                        Tour<span>Albay</span>
+                    </a>
+                    <p class = "text" style="text-align: left;">Albay is a beautiful province in the Bicol Region, known to the world as the home of Mt. Mayon, the volcano with a perfect shape of a cone. It is a relatively unspoiled region in south Luzon, with many natural wonders including beaches, springs, caves and waterfalls. Albay offers almost endless discoveries, especially for the nature-loving traveler.                    </p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Manila</a></li>
+                        <li><a href = "#">Vigan</a></li>
+                        <li><a href = "#">Tagaytay</a></li>
+                        <li><a href = "#">Baguio</a></li>
+                        <li><a href = "#">Boracay</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+            <h3>All credit goes to the proper owners. This website is intended for educational purposes only.</h3>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+    </body>
+</html>
